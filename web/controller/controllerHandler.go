@@ -11,7 +11,7 @@ package controller
 import (
 	"net/http"
 	"encoding/json"
-	"github.com/kongyixueyuan.com/education/service"
+	"github.com/switch/fabric-sdk-go-examples/service"
 	"fmt"
 )
 

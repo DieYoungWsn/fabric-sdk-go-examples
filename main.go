@@ -17,15 +17,15 @@ import (
 
 const (
 	configFile  = "config.yaml"
-	initialized = false
 	EduCC       = "educc"
+	initialized = false
 )
 
 func main() {
 
 	initInfo := &sdkInit.InitInfo{
 
-		ChannelID:     "switchChannel",
+		ChannelID:     "mychannel",
 		ChannelConfig: os.Getenv("GOPATH") + "/src/github.com/switch/fabric-sdk-go-examples/fixtures/artifacts/channel.tx",
 
 		OrgAdmin:       "Admin",

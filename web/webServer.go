@@ -7,7 +7,7 @@ package web
 import (
 	"net/http"
 	"fmt"
-	"github.com/kongyixueyuan.com/education/web/controller"
+	"github.com/switch/fabric-sdk-go-examples/web/controller"
 )
 
 
